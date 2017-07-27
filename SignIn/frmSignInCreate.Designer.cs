@@ -50,7 +50,7 @@ namespace COMSSmobilerDemo.SignIn
             this.Gps1 = new Smobiler.Core.Controls.GPS();
             this.PopList1 = new Smobiler.Core.Controls.PopList();
             this.btnAddress = new Smobiler.Core.Controls.Button();
-            this.MapView1 = new Smobiler.Core.Controls.MapView();
+            this.MapTagView1 = new Smobiler.Core.Controls.MapTagView();
             this.Line1 = new Smobiler.Core.Controls.Line();
             this.line2 = new Smobiler.Core.Controls.Line();
             // 
@@ -204,12 +204,12 @@ namespace COMSSmobilerDemo.SignIn
             this.btnAddress.ZIndex = 8;
             this.btnAddress.Click += new Smobiler.Core.Controls.ButtonBase.ClickEventHandler(this.btnAddress_Click);
             // 
-            // MapView1
+            // MapTagView1
             // 
-            this.MapView1.Location = new System.Drawing.Point(0, 78);
-            this.MapView1.Name = "MapView1";
-            this.MapView1.Size = new System.Drawing.Size(88, 85);
-            this.MapView1.TabIndex = 13;
+            this.MapTagView1.Location = new System.Drawing.Point(0, 78);
+            this.MapTagView1.Name = "MapTagView1";
+            this.MapTagView1.Size = new System.Drawing.Size(88, 85);
+            this.MapTagView1.TabIndex = 13;
             // 
             // Line1
             // 
@@ -243,7 +243,7 @@ namespace COMSSmobilerDemo.SignIn
             this.lblDate,
             this.lblAddress,
             this.btnAddress,
-            this.MapView1,
+            this.MapTagView1,
             this.Line1,
             this.line2});
             this.ScreenOrientation = Smobiler.Core.ScreenOrientation.Landscape;
@@ -275,7 +275,7 @@ namespace COMSSmobilerDemo.SignIn
         internal Smobiler.Core.Controls.PopList PopList1;
         internal Smobiler.Core.Controls.Button btnAddress;
         #endregion
-        internal Smobiler.Core.Controls.MapView MapView1;
+        internal Smobiler.Core.Controls.MapTagView  MapTagView1;
         internal Smobiler.Core.Controls.Line Line1;
         private Smobiler.Core.Controls.Line line2;
 

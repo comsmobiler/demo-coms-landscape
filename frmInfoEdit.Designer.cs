@@ -172,7 +172,6 @@ namespace COMSSmobilerDemo
             // 
             this.imguser.Border = new Smobiler.Core.Border(0, 1, 0, 1);
             this.imguser.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
-            this.imguser.FontSize = 10F;
             this.imguser.HoverBackColor = System.Drawing.Color.White;
             this.imguser.HoverForeColor = System.Drawing.Color.White;
             this.imguser.Location = new System.Drawing.Point(400, 43);

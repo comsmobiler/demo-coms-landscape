@@ -36,10 +36,14 @@
     <StartupObject>SmobilerDemo.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Smobiler.Core">
-      <HintPath>D:\SearchingProject\BaseProject\APP\Code\Smobiler.Core.dll</HintPath>
+    <Reference Include="Smobiler.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=c28d201d12639a97, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>dll\Smobiler.Core.dll</HintPath>
     </Reference>
-    <Reference Include="Smobiler.Utility, Version=1.0.0.0, Culture=neutral, PublicKeyToken=a049c84bba5d5e7a, processorArchitecture=MSIL" />
+    <Reference Include="Smobiler.Utility, Version=1.0.0.0, Culture=neutral, PublicKeyToken=a049c84bba5d5e7a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>dll\Smobiler.Utility.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.DirectoryServices" />

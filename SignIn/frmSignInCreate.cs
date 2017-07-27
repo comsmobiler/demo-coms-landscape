@@ -72,7 +72,7 @@ private void setbtnColorP()
                     Latitude = e.Latitude;
                     addressInfo = e.Location;
                     lblAddress.Text = e.Location;
-                    MapView1.GeoTag = new GeoTag(Longitude, Latitude, addressInfo);
+                    MapTagView1.GeoTag = new GeoTag(Longitude, Latitude, addressInfo);
                 }
                 else
                 {
